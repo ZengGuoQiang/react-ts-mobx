@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Home from "pages/home"
+import About from "pages/about"
+import ListPage from "pages/ListPage"
 import './App.css';
+import { Route, BrowserRouter, Link } from "react-router-dom"
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component<any,any,any>{
+	public state = {
+		MenuArr: [
+			{ "name": "首页", "path": "/", "component": Home, "active": true, "id": 1 },
+			{ "name": "关于", "path": "/about", "component": About, "id": 2 },
+			{ "name": "列表", "path": "/list", "component": ListPage, "id": 3 }
+		]
+	}
+	public render(){
+		return(
+			<div className = "App" >
+					<header className="App-header">
+						<p>
+							Edit <code>src/App.tsx</code> and save to reload.
+						</p>
+						<BrowserRouter>
+							<ul>
+								{this.state.MenuArr.map((menu) => {
+									return (<li key={menu.id}><Link to={menu.path}>{menu.name}</Link></li>)
+								})}
+								{/* <li><Link to="/">home</Link></li>
+							<li><Link to="/about">about</Link></li> */}
+							</ul>
+							<Route exact={true} path="/" component={Home} />
+							<Route exact={true} path="/about" component={About} />
+							<Route exact={true} path="/list" component={ListPage} />
+						</BrowserRouter>
+
+					</header>
+			</div>
+		)
+	};
 }
 
 export default App;

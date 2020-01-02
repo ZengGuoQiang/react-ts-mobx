@@ -7,6 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ul,li,ol{list-style-type: none;list-style: none;}
+
+a{text-decoration: none;color: #000;}
+
+::-webkit-scrollbar{width: 10px;background:#0ff;}/*整体 类似mask*/
+::-webkit-scrollbar-button{background:#0f1;}/*上下箭头*/
+::-webkit-scrollbar-corner{background: #f00;}/**/
+::-webkit-scrollbar-thumb{background: #ff0;}/*竖条长杆*/
+::-webkit-scrollbar-track{background: pink;}/*整体 */
+::-webkit-scrollbar-track-piece{background: darkblue;}/*可以滑动的区域*/
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
