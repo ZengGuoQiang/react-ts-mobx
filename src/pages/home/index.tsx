@@ -1,16 +1,26 @@
 import React from "react"
 import "pages/home/index.css"
+import {observable, computed} from "mobx"
 
-// const Home : React.FC = () =>{
-//     return(
-//         <div></div>
-//     )
-// }
+class TodoList{
+    @observable firstNumber: number = 0
+    @observable secondNumber: number = 0
+
+    @computed get total(){
+        return this.firstNumber + this.secondNumber
+    }
+}
+
+let list = new TodoList()
 
 class Home extends React.Component<any>{
-    render(){
+    render(){ 
         return(
-            <div></div>
+            <div>
+                <div><input value={list.firstNumber}/></div>
+                <div><input value={list.secondNumber}/></div>
+                <div>{list.total}</div>
+            </div>
         )
     }
 }

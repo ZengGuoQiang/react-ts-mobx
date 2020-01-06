@@ -15,7 +15,7 @@ class List extends React.Component<Data>{
                             if (this.props.img) {
                                 return (
                                 <li key={data.id}>
-                                    <img src={data.img}/>
+                                    <img src={data.img} alt={data.message}/>
                                 </li>
                                     )
                             } else {
