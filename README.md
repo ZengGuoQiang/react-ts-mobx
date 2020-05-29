@@ -42,3 +42,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+react-mobx 使用  定义可监视性的属性  以及改变该属性的函数，函数指向该属性  绑定dom层，在其暴露之前添加observe用于提示该component是一个可变属性容器就此完成双向绑定

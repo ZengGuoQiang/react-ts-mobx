@@ -3,6 +3,7 @@ import React from 'react';
 import Home from "pages/home"
 import About from "pages/about"
 import ListPage from "pages/ListPage"
+import AutoAdd from "pages/autoAdd"
 import './App.css';
 import { Route, BrowserRouter, Link } from "react-router-dom"
 
@@ -11,7 +12,8 @@ class App extends React.Component<any,any,any>{
 		MenuArr: [
 			{ "name": "首页", "path": "/", "component": Home, "active": true, "id": 1 },
 			{ "name": "关于", "path": "/about", "component": About, "id": 2 },
-			{ "name": "列表", "path": "/list", "component": ListPage, "id": 3 }
+			{ "name": "列表", "path": "/list", "component": ListPage, "id": 3 },
+			{ "name": "autoAdd", "path": "/add", "component": AutoAdd, "id": 4 }
 		]
 	}
 	public render(){
@@ -32,6 +34,7 @@ class App extends React.Component<any,any,any>{
 							<Route exact={true} path="/" component={Home} />
 							<Route exact={true} path="/about" component={About} />
 							<Route exact={true} path="/list" component={ListPage} />
+							<Route exact={true} path="/add" component={AutoAdd} />
 						</BrowserRouter>
 
 					</header>

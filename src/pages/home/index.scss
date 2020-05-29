@@ -1,0 +1,16 @@
+
+.loginForm {
+    width: 400px;
+    height:400px;
+    padding: 10px;
+    border: 1px solid #000;
+    .row{
+        margin-bottom: 10px;
+        .input-group-prepend{
+                text-align: center;
+            .input-group-text{
+                width:100px;
+            }
+        }
+    }
+}
