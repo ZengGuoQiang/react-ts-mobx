@@ -1,0 +1,1216 @@
+[
+    {
+        "children": [
+            {
+                "icon": "iconfont icon-chuanbojichuxinxi",
+                "name": "船舶基础信息",
+                "id": "CBJCXX",
+                "url": "trq/jcxx/cbjcxx/toList"
+            },
+            {
+                "icon": "iconfont icon-chuanwujichuxinxi",
+                "name": "船坞基础信息",
+                "id": "CWJCXX",
+                "url": "trq/jcxx/cwjcxx/toList"
+            },
+            {
+                "icon": "iconfont icon-pipei",
+                "name": "船岸匹配",
+                "id": "CAPP",
+                "url": "trq/jcxx/capp/toList"
+            },
+            {
+                "icon": "iconfont icon-zhaoshangyongjin",
+                "name": "代理基础信息",
+                "id": "DLJCXX",
+                "url": "trq/jcxx/dljcxx/toList"
+            },
+            {
+                "icon": "iconfont icon-gongzuoqu_tianjiagangkoumatou",
+                "name": "码头基础信息",
+                "id": "MTJCXX",
+                "url": "trq/jcxx/mtjcxx/toList"
+            },
+            {
+                "icon": "iconfont icon-zuhuguanli-",
+                "name": "租家基础信息",
+                "id": "ZJJCXX",
+                "url": "trq/jcxx/zjjcxx/toList"
+            },
+            {
+                "icon": "iconfont icon-daochu1",
+                "name": "交易对手基础信息",
+                "id": "DDR",
+                "url": "trq/jcxx/jyds/toList"
+            },
+            {
+                "icon": "iconfont icon-lunchuan",
+                "name": "DailyShip",
+                "id": "DS",
+                "url": "trq/jcxx/dailship/toList"
+            },
+            {
+                "icon": "iconfont icon-leng",
+                "name": "冷舱记录",
+                "id": "LCJL",
+                "url": "trq/jcxx/lcjl/toList"
+            },
+            {
+                "icon": "iconfont icon-huowu",
+                "name": "货物代理",
+                "id": "HWDL",
+                "url": "trq/jcxx/hwdl/toList"
+            },
+            {
+                "icon": "iconfont icon-xingxing",
+                "name": "JCC基础信息",
+                "id": "JCC",
+                "url": "trq/jcxx/jccxx/toList"
+            },
+            {
+                "icon": "iconfont icon-xiangmuxiaoshifeishuai",
+                "name": "代理费率",
+                "id": "DLFL",
+                "url": "trq/jcxx/dlfl/toList"
+            },
+            {
+                "icon": "iconfont icon-julishaixuan",
+                "name": "码头航距",
+                "id": "MTHJ",
+                "url": "trq/jcxx/mthj/toList"
+            },
+            {
+                "icon": "iconfont icon-dict-management",
+                "name": "公用字典",
+                "id": "GGZD",
+                "url": "trq/jcxx/gyzd/toList"
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-dict-management",
+                        "name": "BOOK",
+                        "id": "BOOK",
+                        "url": "trq/common/toBookList"
+                    },
+                    {
+                        "icon": "iconfont icon-dict-management",
+                        "name": "TRANSACTION",
+                        "id": "TRANSACTION",
+                        "url": "trq/common/toTransactionList"
+                    },
+                    {
+                        "icon": "iconfont icon-dict-management",
+                        "name": "基础套保操作方案",
+                        "id": "JCTBCZFA",
+                        "url": "trq/common/toBasicPlansList"
+                    },
+                    {
+                        "icon": "iconfont icon-dict-management",
+                        "name": "策略套保操作方案",
+                        "id": "CLTBCZFA",
+                        "url": "trq/common/toStrategyPlansList"
+                    }
+                ],
+                "icon": "iconfont icon-dict-management",
+                "name": "BOOK",
+                "id": "BOOKLIST",
+                "url": ""
+            }
+        ],
+        "name": "基础信息维护",
+        "icon": "iconfont icon-jibenxinxi",
+        "id": "GRZX",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-changqihetongguanli",
+                        "name": "运输合同",
+                        "id": "YSHTGL3",
+                        "url": "trq/ysht/ysht/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-chuan",
+                        "name": "航次信息",
+                        "id": "HCXXGL",
+                        "url": "trq/ysht/hcxx/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "运输合同",
+                "id": "YSHTGL",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-qizuchuanyunyingchengben",
+                        "name": "期租船运营成本",
+                        "id": "QZCYYCBGL",
+                        "url": "trq/qzcgl/qzcyycb/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanjihua",
+                        "name": "期租船运营成本摊销",
+                        "id": "QZCYYCBTX",
+                        "url": "trq/qzcgl/qzccbtx/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-yuyue",
+                        "name": "加油安排",
+                        "id": "JYAPGL",
+                        "url": "trq/qzcgl/jyap/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-xiuli",
+                        "name": "坞修计划",
+                        "id": "WXJHGL",
+                        "url": "trq/qzcgl/wxjh/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-baozhangzeren",
+                        "name": "租家责任险",
+                        "id": "ZJZRX",
+                        "url": "trq/qzcgl/zjzrx/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "期租船管理",
+                "id": "QZCGL",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶每日动态统计表",
+                        "id": "CBMRDTTJB",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶燃油-航速表",
+                        "id": "CBRYHSB",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶事故、故障统计表",
+                        "id": "CBSGGZTJB",
+                        "url": "trq/ysgl/bbgl/toCbsggzList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶执行航次情况表",
+                        "id": "CBZXHCQKB",
+                        "url": "trq/rcyytj/cbzxhc/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶加油情况表",
+                        "id": "CBJYQKB",
+                        "url": "trq/rcyytj/cbjy/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "航次途耗情况表",
+                        "id": "HCTHQKB",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "船舶GCU消耗情况统计表",
+                        "id": "CBGCUXHQKTJB",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "运输大底表",
+                        "id": "YSDBB",
+                        "url": "trq/ysgl/bbgl/toYsddbList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "日常运营统计",
+                "id": "RCYYTJ",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "租家责任险投保情况统计表",
+                        "id": "ZJZRXTBQKTJB",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "装港代理使用统计表",
+                        "id": "ZGDLSYTJB",
+                        "url": "trq/ysgl/bbgl/toZgdlsyList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "卸港代理使用统计表",
+                        "id": "XGDLSYTJB",
+                        "url": "trq/rcgztj/xgdlsy/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "执行量按人员统计表",
+                        "id": "ZXLARYTJB",
+                        "url": "trq/rcgztj/zxlary/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "日常工作统计",
+                "id": "RCGZTJ",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "运费、运杂费付款表",
+                        "id": "YFYZFFKB",
+                        "url": "trq/ysgl/yzffkjh/toList1"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "运输、运杂费增补付款计划表",
+                        "id": "YSYZFZBFKJHB",
+                        "url": "trq/ysgl/yzffkjh/toList2"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "费用分摊明细表",
+                        "id": "FYFTMXBX",
+                        "url": "trq/ysgl/fyftmxX/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "费用分摊明细变动表",
+                        "id": "FYFTMXBDBX",
+                        "url": "trq/ysgl/fyftmxX/toListBDB"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "运杂费费用管理",
+                "id": "XSGL",
+                "url": null
+            }
+        ],
+        "name": "运输管理",
+        "icon": "iconfont icon-chuan",
+        "id": "YSGL",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "icon": "iconfont icon-jihuaguanli",
+                "name": "计划管理",
+                "id": "JHGL",
+                "url": "trq/jhgl/jhgl/toList"
+            },
+            {
+                "icon": "iconfont icon-jihuadaoru",
+                "name": "计划导入",
+                "id": "JHDR",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-fukuanguanli-zafei",
+                        "name": "ADP-贸易-单个",
+                        "id": "JHGDZX_X",
+                        "url": "trq/jhgl/jhgdzxx/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-qizuchuanyunyingchengben",
+                        "name": "ADP-运输执行",
+                        "id": "ADPYSZX",
+                        "url": "trq/jhgl/jhgdzxx/toList1"
+                    },
+                    {
+                        "icon": "iconfont icon-purchaseContractBillPayPre",
+                        "name": "计划滚动执行情况表",
+                        "id": "JHGDZXQKB",
+                        "url": "trq/jhgl/jhgdzxx/toList2"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanguanli-zafei",
+                        "name": "ADP-贸易-批量",
+                        "id": "ADPTEXT",
+                        "url": "trq/jhgl/jhgdzxx/adptest"
+                    }
+                ],
+                "icon": "iconfont icon-jihuagundongzhihang",
+                "name": "计划滚动执行",
+                "id": "JHGDZC",
+                "url": null
+            },
+            {
+                "icon": "iconfont icon-fukuanjilu",
+                "name": "资金计划-北京",
+                "id": "ZJJH",
+                "url": "trq/jhgl/zjjh/toList?1160"
+            },
+            {
+                "icon": "iconfont icon-fukuanjilu",
+                "name": "资金计划-亚洲",
+                "id": "ZJJH_YZ",
+                "url": "trq/jhgl/zjjh/toList?1163"
+            },
+            {
+                "icon": "iconfont icon-fukuanjilu",
+                "name": "资金计划-新加坡",
+                "id": "ZJJH_XJP",
+                "url": "trq/jhgl/zjjh/toList?1169"
+            },
+            {
+                "icon": "iconfont icon-fukuanjilu",
+                "name": "资金计划-运输管理",
+                "id": "ZJJH_YSGL",
+                "url": "trq/jhgl/zjjh_ysgl/toList"
+            },
+            {
+                "icon": "iconfont icon-fukuanjilu",
+                "name": "资金计划亚洲报表",
+                "id": "ZJJH_BB",
+                "url": "trq/jhgl/zjjhyzbb/toList"
+            }
+        ],
+        "name": "计划管理",
+        "icon": "iconfont icon-jihuaguanli1",
+        "id": "XMGL",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-changqihetongguanli",
+                        "name": "长期合同",
+                        "id": "CQHTGL",
+                        "url": "trq/bjmy/cqht/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-changqihetongguanli",
+                        "name": "长期合同历史版本查询",
+                        "id": "CQHTBB",
+                        "url": "trq/bjmy/cqhtlsbbcx/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "合同管理",
+                "id": "HTGL",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-F",
+                        "name": "FOB",
+                        "id": "APLNGGL",
+                        "url": "trq/dchtgl/APLNG/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-D",
+                        "name": "DES",
+                        "id": "PNGLNGGL",
+                        "url": "trq/dchtgl/PNGLNG/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-P",
+                        "name": "现货代理",
+                        "id": "XHDLBJ",
+                        "url": "trq/bjmy/xhdl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "服务",
+                        "id": "FWHT",
+                        "url": "trq/dchtgl/fwht/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "单船合同",
+                "id": "DCHT",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-dailizhuanmaiyingkuiguanli",
+                        "name": "代理转卖盈亏计算",
+                        "id": "DLZMYKJS",
+                        "url": "trq/bjmy/dlzmjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-dailizhuanmaiyingkuiguanli",
+                        "name": "代理转卖盈亏结转",
+                        "id": "DLZMYKJZ",
+                        "url": "trq/bjmy/dlzmjz/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "代理转卖盈亏计算/结转",
+                "id": "DLZMYGJSJZ",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "收付结算",
+                        "id": "SFJS",
+                        "url": "trq/bjmy/bjsfk/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "服务合同结算",
+                        "id": "FWHTJS",
+                        "url": "trq/bjmy/bjfwjs/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "收付款管理",
+                "id": "SFKGLGL",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "APLNG进口途耗及单位运费分析",
+                        "id": "APJKXHYFFX",
+                        "url": "trq/bjmy/bjbba/toList1"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "APLNG项目年度执行数据核对",
+                        "id": "APXMHD",
+                        "url": "trq/dchtgl/ndzxsjhd/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "DES船货卸港滞期航次统计分析",
+                        "id": "DESTJFX",
+                        "url": "trq/bjmy/bjbba/toList2"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "FOB船货卸港延误航次统计分析",
+                        "id": "FOBYWFX",
+                        "url": "trq/bjmy/bjbba/toList3"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG进口成本测算",
+                        "id": "LNGCBCS",
+                        "url": "trq/bjmy/bjndbb/toList1"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG进口来源地统计",
+                        "id": "LNGJKTJ",
+                        "url": "trq/bjmy/bjmyjklytj/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG进口贸易额统计",
+                        "id": "LNGJKMYE",
+                        "url": "trq/bjmy/bjndbb/toList2"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG进口现货交易对手统计",
+                        "id": "LNGJKDSTJ",
+                        "url": "trq/dchtgl/jkxhtjbyjyds/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG现货资源采购统计表",
+                        "id": "LNGZYCGTJB",
+                        "url": "trq/bjmy/bjndbb/toList4"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG转卖业务统计分析表",
+                        "id": "LNGZMYWTJFX",
+                        "url": "trq/bjmy/bjbba/toList4"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "LNG转卖资源统计表",
+                        "id": "LNGZMZYTJ",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "各年度执行统计1-N月完成情况(到货量)",
+                        "id": "GNDTJWCQK",
+                        "url": "trq/bjmy/bjbba/toList5"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "各年度执行统计1-N月完成情况(提货量)",
+                        "id": "THLWCQK",
+                        "url": "trq/bjmy/bjbba/toList6"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "历年LNG统计表",
+                        "id": "LNLNGTJ",
+                        "url": "trq/bjmy/bjndbb/toList3"
+                    },
+                    {
+                        "icon": "iconfont icon-liangdaogang",
+                        "name": "中石化各LNG接收站到货价格分析",
+                        "id": "GJSZDHFX",
+                        "url": "trq/bjmy/bjbba/toList7"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "报表管理",
+                "id": "BJBBGL",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "",
+                        "name": "合同相关",
+                        "id": "HTXG",
+                        "url": "trq/common/toBjHtList"
+                    },
+                    {
+                        "icon": "",
+                        "name": "结算相关",
+                        "id": "JSXG",
+                        "url": "trq/common/toBjJsList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "表单管理",
+                "id": "BJBDGL",
+                "url": ""
+            }
+        ],
+        "name": "北京贸易",
+        "icon": "iconfont icon-xingxing",
+        "id": "BJMY",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-APLNG",
+                        "name": "FOB",
+                        "id": "APLNGYZ",
+                        "url": "trq/yzmy/APLNGzy/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-PNGLNG",
+                        "name": "DES",
+                        "id": "PNGLNGYZ",
+                        "url": "trq/yzmy/Pnglngyz/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "单船合同",
+                "id": "DCHTYZ",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "收付款挂账",
+                        "id": "SKJSYZ",
+                        "url": "trq/yzmy/skgzgl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "收款结算",
+                        "id": "SKJS",
+                        "url": "trq/yzmy/skjsgl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanguanli-huokuan",
+                        "name": "付款-货款结算",
+                        "id": "FKHKJS",
+                        "url": "trq/yzmy/fkhkgl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanguanli-yunfei",
+                        "name": "付款-运杂费结算",
+                        "id": "FKYFJSYZ",
+                        "url": "trq/yzmy/fkyfgl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanguanli-yunfei",
+                        "name": "收款-运杂费结算",
+                        "id": "SHYZFJSYZ",
+                        "url": "trq/yzmy/skyfgl/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-fukuanguanli-zafei",
+                        "name": "付款-杂费结算",
+                        "id": "FKZFJSYZ",
+                        "url": "trq/yzmy/fkzfgl/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "长约收付款管理",
+                "id": "SFKGLYZ1",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-caigoudan",
+                        "name": "采购",
+                        "id": "CGYZ",
+                        "url": "trq/yzmy/zy/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-RectangleCopy",
+                        "name": "销售",
+                        "id": "XSYZ",
+                        "url": "trq/yzmy/zy/toListXS"
+                    }
+                ],
+                "icon": "iconfont icon-shangdian_shop",
+                "name": "自营合同",
+                "id": "ZYYZ",
+                "url": null
+            },
+            {
+                "icon": "iconfont icon-shangdian_shop",
+                "name": "购销匹配",
+                "id": "GXPPYZ",
+                "url": "trq/xjpmy/gxpp/toListYz"
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "费用分摊明细表",
+                        "id": "YZFYFTMXB",
+                        "url": "trq/ysgl/fyftmxX/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "执行明细-Detail",
+                        "id": "ZXMXDETAIL",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "P\\L表",
+                        "id": "PL",
+                        "url": ""
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "费用清单表",
+                        "id": "FYMXQD",
+                        "url": ""
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "报表管理",
+                "id": "YZBBGL",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "销售结算-货款",
+                        "id": "ZYFKYZ",
+                        "url": "trq/yzmy/zysfk/toSkjsList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "销售结算-费用",
+                        "id": "ZYFYYZ",
+                        "url": "trq/yzmy/zysfk/toSkzfList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-货款",
+                        "id": "ZYFKYFYZ",
+                        "url": "trq/yzmy/zysfk/toFkhkList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-运费",
+                        "id": "ZYSKYZ",
+                        "url": "trq/yzmy/zysfk/toFkyfList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-杂费",
+                        "id": "ZYFKZFYZ",
+                        "url": "trq/yzmy/zysfk/toFkzfList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "自营收付款管理",
+                "id": "ZYSFKGLYZ",
+                "url": null
+            },
+            {
+                "icon": "iconfont icon-liebiao",
+                "name": "表单管理",
+                "id": "YZBDGL",
+                "url": "trq/yzmy/export/toYzformList"
+            }
+        ],
+        "name": "亚洲贸易",
+        "icon": "iconfont icon-yazhou",
+        "id": "YZMY",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-changqihetongguanli",
+                        "name": "长期合同",
+                        "id": "XJPCQHT",
+                        "url": "trq/xjpmy/cqht/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-changqihetongguanli",
+                        "name": "长期合同历史版本查询",
+                        "id": "XJPCQHTLS",
+                        "url": "trq/xjpmy/cqhthistorycx/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "合同管理",
+                "id": "XJPHTGL",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-S",
+                        "name": "自营销售",
+                        "id": "ZYXS",
+                        "url": "trq/xjpmy/zy/toListXS"
+                    },
+                    {
+                        "icon": "iconfont icon-S",
+                        "name": "代理转卖",
+                        "id": "DLZM",
+                        "url": "trq/xjpmy/dlzm/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "销售",
+                "id": "XJPXS",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-P",
+                        "name": "自营采购",
+                        "id": "ZY",
+                        "url": "trq/xjpmy/zy/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-P",
+                        "name": "代理采购",
+                        "id": "XHDLXJP",
+                        "url": "trq/xjpmy/xhdl/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "采购",
+                "id": "XJPCG",
+                "url": ""
+            },
+            {
+                "icon": "iconfont icon-shangdian_shop",
+                "name": "购销匹配",
+                "id": "GXPP",
+                "url": "trq/xjpmy/gxpp/toList"
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "销售结算-费用",
+                        "id": "XSJSFY",
+                        "url": "trq/xjpmy/zysfk/skzf/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "销售结算-货款",
+                        "id": "ZYSK",
+                        "url": "trq/xjpmy/zysfk/skjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-货款",
+                        "id": "ZYFK",
+                        "url": "trq/xjpmy/zysfk/fkhk/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-运费",
+                        "id": "ZYFKYF",
+                        "url": "trq/xjpmy/zysfk/fkyf/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "采购结算-杂费",
+                        "id": "ZYFKZF",
+                        "url": "trq/xjpmy/zysfk/fkzf/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "自营收付款管理",
+                "id": "ZYSFKGL",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "收付款挂账",
+                        "id": "XHDLGZ",
+                        "url": "trq/xjpmy/xhdlsfk/sfkgz/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "收款结算",
+                        "id": "SKJSX",
+                        "url": "trq/xjpmy/xhdlsfk/skjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "付款-货款结算",
+                        "id": "FKHKJSX",
+                        "url": "trq/xjpmy/xhdlsfk/fkhkjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "付款-运费结算",
+                        "id": "FKYFX",
+                        "url": "trq/xjpmy/xhdlsfk/fkyfjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "付款-杂费结算",
+                        "id": "FKZFX",
+                        "url": "trq/xjpmy/xhdlsfk/fkzfjs/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "现货代理收付款",
+                "id": "XHDLSFK",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "对内结算",
+                        "id": "SFKGZXJP",
+                        "url": "trq/xjpmy/dlzmsfk/dnjs/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "对外结算-挂账",
+                        "id": "SKGLD",
+                        "url": "trq/xjpmy/dlzmsfk/sfkgz/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "对外结算-费用",
+                        "id": "FKGLD",
+                        "url": "trq/xjpmy/dlzmsfk/dwfk/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-shoufukuanguanli1",
+                        "name": "对外结算-货款",
+                        "id": "FKZFXJP",
+                        "url": "trq/xjpmy/dlzmsfk/dwhk/toList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "代理转卖收付款",
+                "id": "DLZMXJP",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "代理台账",
+                        "id": "XJPDLTZ",
+                        "url": "trq/xjpmy/report/toList1"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "第三方贸易台账",
+                        "id": "XJPDSFMYTZ",
+                        "url": "trq/xjpmy/report/toList2"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "LNG业务盈亏",
+                        "id": "LNGYWYK",
+                        "url": "trq/xjpmy/report/toListLngywyk"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "LNG代理转卖情况",
+                        "id": "LNGDLZM",
+                        "url": "trq/xjpmy/report/toListLngDlzmqk"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "LNG代理采购情况",
+                        "id": "LNGDLCG",
+                        "url": "trq/xjpmy/report/toListLngDlcgqk"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "报表管理",
+                "id": "XJPBBGL",
+                "url": ""
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "合同相关",
+                        "id": "XJPHTXG",
+                        "url": "trq/common/toXjpHtList"
+                    },
+                    {
+                        "icon": "iconfont icon-liebiao",
+                        "name": "结算相关",
+                        "id": "XJPJSXG",
+                        "url": "trq/common/toXjpJsList"
+                    }
+                ],
+                "icon": "iconfont icon-liebiao",
+                "name": "表单管理",
+                "id": "XJPBDGL",
+                "url": ""
+            }
+        ],
+        "name": "新加坡贸易",
+        "icon": "iconfont icon-xinjiapo",
+        "id": "RLZYGL",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "JCC基础信息审批",
+                "id": "JCCSPGL",
+                "url": "trq/spgl/jccsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "运输合同审批",
+                "id": "YSHTSP",
+                "url": "trq/spgl/yshtsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "加油合同审批",
+                "id": "JYAPSP",
+                "url": "trq/spgl/jyhtsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "单船合同审批",
+                "id": "HTSPGL",
+                "url": "trq/spgl/htsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "结算单审批",
+                "id": "JSDSP",
+                "url": "trq/spgl/jsdsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "付款单审批",
+                "id": "FKDSP",
+                "url": "trq/spgl/fkdsp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "收款单审批",
+                "id": "SKDSP",
+                "url": "trq/spgl/skdsp/toList"
+            },
+            {
+                "children": [
+                    {
+                        "icon": "iconfont icon-chuli",
+                        "name": "审批人员配置",
+                        "id": "SPRYPZ",
+                        "url": "trq/spgl/sprypz/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-chuli",
+                        "name": "审批级别配置",
+                        "id": "SPPZ",
+                        "url": "trq/jcxx/sppz/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-chuli",
+                        "name": "审批启用配置",
+                        "id": "SPQYPZ",
+                        "url": "trq/spgl/spqypz/toList"
+                    },
+                    {
+                        "icon": "iconfont icon-chuli",
+                        "name": "审批人员签章",
+                        "id": "SPRYQZ",
+                        "url": "trq/spgl/spryqz/toList"
+                    }
+                ],
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "审批配置",
+                "id": "SPPZ1",
+                "url": null
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "基础套保方案审批",
+                "id": "JCTBSP",
+                "url": "trq/spgl/basicplansp/toList"
+            },
+            {
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "策略套保方案审批",
+                "id": "CLTBSP",
+                "url": "trq/spgl/strategyplanssp/toList"
+            }
+        ],
+        "name": "审批管理",
+        "icon": "iconfont icon-nianbaoshenji",
+        "id": "SPGL",
+        "url": "javascript:void(0);"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "icon": "ListIconC",
+                        "name": "用户维护",
+                        "id": "YH",
+                        "url": "user/allConfiguration/user"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "角色维护",
+                        "id": "JS",
+                        "url": "role/allConfiguration/role"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "角色组维护",
+                        "id": "GW",
+                        "url": "position/allConfiguration/position"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "用户批导",
+                        "id": "YHPD",
+                        "url": "user/allConfiguration/userImport"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "本地角色批导",
+                        "id": "BDJSPD",
+                        "url": "role/allConfiguration/roleImport"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "岗位批导",
+                        "id": "GWPD",
+                        "url": "position/allConfiguration/positionImport"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "用户分配岗位批导",
+                        "id": "YHFPGWPD",
+                        "url": "position/allConfiguration/userAndPositionImport"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "用户与本地角色对应批导",
+                        "id": "YHYBDJSDYPD",
+                        "url": "role/allConfiguration/userAndRoleImport"
+                    },
+                    {
+                        "icon": "ListIconC",
+                        "name": "岗位与本地角色对应批导",
+                        "id": "GWYBDJSDYPD",
+                        "url": "position/allConfiguration/positionAndRoleImport"
+                    }
+                ],
+                "icon": "iconfont icon-chuli",
+                "name": "系统配置管理",
+                "id": "YHQX",
+                "url": null
+            },
+            {
+                "children": [
+                    {
+                        "icon": null,
+                        "name": "字典管理",
+                        "id": "DGL",
+                        "url": "dictionary/allConfiguration/dictionary"
+                    },
+                    {
+                        "icon": null,
+                        "name": "系统日志",
+                        "id": "XTRZ",
+                        "url": "log/toList"
+                    },
+                    {
+                        "icon": null,
+                        "name": "菜单管理",
+                        "id": "CDGL",
+                        "url": "menu/allConfiguration/menu"
+                    }
+                ],
+                "icon": "iconfont icon-danpinfenxi",
+                "name": "基础数据管理",
+                "id": "HTPHAN",
+                "url": null
+            }
+        ],
+        "name": "系统管理",
+        "icon": "iconfont icon-xitong1",
+        "id": "XTGL",
+        "url": "javascript:void(0);"
+    }
+]

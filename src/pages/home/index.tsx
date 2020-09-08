@@ -1,66 +1,109 @@
-import React from "react"
+import React, { Component } from "react"
 import "pages/home/index.scss"
-import {observable, action} from "mobx"
-import {observer} from "mobx-react"
-import {InputGroup,FormControl,Container,Row,Col,ButtonGroup,Button} from "react-bootstrap"
+import logoImage from "static/image/logo_base.png"
+import { Container,Row,Col } from "react-bootstrap"
+import menuList from "pages/home/menu_list.json"
+import { observable, action } from "mobx"
+import { observer } from "mobx-react"
 
-class TodoList{
-    @observable firstNumber = 0
-    @observable secondNumber = 0
+interface menuParent{
+    name:string,
+    id:string,
+    url:string,
+    children: Array<any>,
+    icon:string
+}
 
-    @action total(){
-        return this.firstNumber + this.secondNumber
+declare enum menuChild {
+    name,
+    id,
+    url,
+    icon,
+    children
+}
+interface Props{
+    display:boolean
+}
+
+const menu: Array<menuParent> = menuList
+
+const containerHeight = (props?:Props) :React.CSSProperties => ({
+    height:window.innerHeight - 110 + "px"
+})
+
+const thridHeight = (len:number): React.CSSProperties => ({
+    height:(len+1)*40+"px"
+})
+
+class renderMenu{
+    @observable menuId = "GRZX";
+
+    @action setMenuid(id:string){
+        this.menuId = id
     }
 }
 
-let list = new TodoList()
-
+const setMenu = new renderMenu()
 
 @observer
-class Home extends React.Component<any>{
-    render(){ 
-        return(
-            <div className="loginForm">
-                <Container>
-                    <Row>
-                        <Col>
-                            <InputGroup size="lg">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="Username">用户名</InputGroup.Text>
-                                </InputGroup.Prepend>
-                                <FormControl
-                                    aria-label="Username"
-                                    aria-describedby="Username"
-                                />
-                            </InputGroup>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <InputGroup size="lg">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="Password">密码</InputGroup.Text>
-                                </InputGroup.Prepend>
-                                <FormControl
-                                    aria-label="Password"
-                                    aria-describedby="Password"
-                                />
-                            </InputGroup>
-                        </Col>
-                    </Row>
+export default class Home extends Component {
+    render(){
+        return <>
+            <Row className="logo_row">
+                <Col className="fl">
+                    <img src={logoImage} alt=""/>
+                </Col>
+                <Col className="fr user_box">
+                    <span className="wel_name">欢迎您，XX</span>
+                    <div className="user_ul">
+                        <div><i className="iconfont icon-zhongyingwenqiehuan"></i></div>
+                        <div><i className="iconfont icon-shouye"></i></div>
+                        <div><i className="iconfont icon-yanse"></i></div>
+                        <div><i className="iconfont icon-youjian1"></i></div>
+                        <div><i className="iconfont icon-xiaoxi"></i></div>
+                        <div><i className="iconfont icon-tuichu-copy"></i></div>
+                    </div>
+                </Col>
+            </Row>
+            <Row className="title_row">
+                <Col xs={2} md={2} className="title_top_white"></Col>
+                <Col xs={9} md={9} className="top_menu_box">
+                    <div className="top_menu">
+                        {menu.map((title) => {
+                            return (<div className="menuBox"><div key={title.id} className={title.id === setMenu.menuId ? "active" : ""} onClick={setMenu.setMenuid.bind(setMenu,title.id)}><i className={title.icon}></i><span>{title.name}</span></div></div>)
+                        })}
+                    </div>
+                </Col>
+                <Col xs={1} md={1} className="title_top_white"></Col>
+            </Row>
+            <Row className="container_row" style={containerHeight()}>
+                <Col className="container_menu" xs={2} md={2}>
+                    {
+                        menu.map((title:{id:string,children:Array<any>,name:string,icon:string,url:string}) => {
+                            if (title.id === setMenu.menuId) {
+                                return title.children.map((twiceChild) => {
+                                    if (twiceChild.children) {
+                                        return (<div key={twiceChild.id} style={thridHeight(twiceChild.children.length)}><i className={twiceChild.icon}></i><span>{twiceChild.name}</span>
+                                            <ul>
+                                                {
+                                                    twiceChild.children.map((thridTitle: { id: string; icon: string; name: string; url: string }) => {
+                                                        return (<li><div key={thridTitle.id}><i className={thridTitle.icon}></i><span>{thridTitle.name}</span></div></li>)
+                                                    })
+                                                }
+                                            </ul>
+                                        </div>)
+                                    } else {
+                                        return (<div key={twiceChild.id}><i className={twiceChild.icon}></i><span>{twiceChild.name}</span></div>)
+                                    }
+                                })
+                            }
+                        })
+                    }
+                </Col>
+                <Col xs={10} md={10}>
 
-                    <Row className="justify-content-md-center">
-                        <Button variant="primary" size="lg" block>
-                            Submit
-                        </Button>
-                    </Row>
-                </Container>
-                <div><input value={list.firstNumber} onChange={list.total.bind(list)}/></div>
-                <div><input value={list.secondNumber} onChange={list.total.bind(list)}/></div>
-                <div>{list.total}</div>
-            </div>
-        )
+                </Col>
+            </Row>
+        </>
     }
 }
-
-export default Home
